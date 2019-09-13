@@ -9,5 +9,19 @@
         "name": "Joshua Spann"
     },
     "items": [
+        {
+            "id": "https://joshuaspann.github.io/publii-test/test-post.html",
+            "url": "https://joshuaspann.github.io/publii-test/test-post.html",
+            "title": "Test Post",
+            "summary": "Getting initial idea of how publii works vs wordpress.",
+            "content_html": "Getting initial idea of how publii works vs wordpress.\n<script>// <![CDATA[\nalert('Hi there JS test!')\n// ]]></script>",
+            "author": {
+                "name": "Joshua Spann"
+            },
+            "tags": [
+            ],
+            "date_published": "2019-09-13T10:17:01-05:00",
+            "date_modified": "2019-09-13T10:21:10-05:00"
+        }
     ]
 }
