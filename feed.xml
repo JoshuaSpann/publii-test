@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Test Site</title>
+    <link href="https://joshuaspann.github.io/publii-test/feed.xml" rel="self" />
+    <link href="https://joshuaspann.github.io/publii-test" />
+    <updated>1969-12-31T18:00:00-06:00</updated>
+    <author>
+        <name>Joshua Spann</name>
+    </author>
+    <id>https://joshuaspann.github.io/publii-test</id>
+
+</feed>
