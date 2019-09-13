@@ -1,6 +1,6 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "Test Site",
+    "title": "Publii Test Site",
     "description": "",
     "home_page_url": "https://joshuaspann.github.io/publii-test",
     "feed_url": "https://joshuaspann.github.io/publii-test/feed.json",
@@ -9,6 +9,20 @@
         "name": "Joshua Spann"
     },
     "items": [
+        {
+            "id": "https://joshuaspann.github.io/publii-test/about.html",
+            "url": "https://joshuaspann.github.io/publii-test/about.html",
+            "title": "About",
+            "summary": "Publii is a static-website CMS. It's like Wordpress, but doesn't use a whole LAMP stack to implement. It is a tool to quickly build, manage, and deploy websites like a CMS without the need of a dynamic, PHP and MySQL driven environment. Publii can be&hellip;",
+            "content_html": "<p>Publii is a static-website CMS. It's like Wordpress, but doesn't use a whole LAMP stack to implement. It is a tool to quickly build, manage, and deploy websites like a CMS without the need of a dynamic, PHP and MySQL driven environment.</p>\n<p>Publii can be integrated into GitHub or GitLab pages as a method for you to display your website! Publii is simple and familiar for Wordpress users, though the layout differences will take a while to get used to... I still like to do raw HTML, CSS, JS and Markdown.....</p>",
+            "author": {
+                "name": "Joshua Spann"
+            },
+            "tags": [
+            ],
+            "date_published": "2019-09-13T16:11:25-05:00",
+            "date_modified": "2019-09-13T16:11:25-05:00"
+        },
         {
             "id": "https://joshuaspann.github.io/publii-test/test-post.html",
             "url": "https://joshuaspann.github.io/publii-test/test-post.html",

@@ -1,14 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>Test Site</title>
+    <title>Publii Test Site</title>
     <link href="https://joshuaspann.github.io/publii-test/feed.xml" rel="self" />
     <link href="https://joshuaspann.github.io/publii-test" />
-    <updated>2019-09-13T10:33:00-05:00</updated>
+    <updated>2019-09-13T16:24:51-05:00</updated>
     <author>
         <name>Joshua Spann</name>
     </author>
     <id>https://joshuaspann.github.io/publii-test</id>
 
+    <entry>
+        <title>About</title>
+        <author>
+            <name>Joshua Spann</name>
+        </author>
+        <link href="https://joshuaspann.github.io/publii-test/about.html"/>
+        <id>https://joshuaspann.github.io/publii-test/about.html</id>
+
+        <updated>2019-09-13T16:11:25-05:00</updated>
+            <summary>
+                <![CDATA[
+                    Publii is a static-website CMS. It's like Wordpress, but doesn't use a whole LAMP stack to implement. It is a tool to quickly build, manage, and deploy websites like a CMS without the need of a dynamic, PHP and MySQL driven environment. Publii can be&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Publii is a static-website CMS. It's like Wordpress, but doesn't use a whole LAMP stack to implement. It is a tool to quickly build, manage, and deploy websites like a CMS without the need of a dynamic, PHP and MySQL driven environment.</p>
+<p>Publii can be integrated into GitHub or GitLab pages as a method for you to display your website! Publii is simple and familiar for Wordpress users, though the layout differences will take a while to get used to... I still like to do raw HTML, CSS, JS and Markdown.....</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Test Post</title>
         <author>
