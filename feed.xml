@@ -3,7 +3,7 @@
     <title>Publii Test Site</title>
     <link href="https://joshuaspann.github.io/publii-test/feed.xml" rel="self" />
     <link href="https://joshuaspann.github.io/publii-test" />
-    <updated>2019-09-19T13:32:19-05:00</updated>
+    <updated>2019-09-19T13:37:22-05:00</updated>
     <author>
         <name>Joshua Spann</name>
     </author>
@@ -46,7 +46,7 @@
         <link href="https://joshuaspann.github.io/publii-test/hacking-you-can-do-with-publii.html"/>
         <id>https://joshuaspann.github.io/publii-test/hacking-you-can-do-with-publii.html</id>
 
-        <updated>2019-09-19T11:11:41-05:00</updated>
+        <updated>2019-09-19T13:37:08-05:00</updated>
             <summary>
                 <![CDATA[
                     Chances are you're a web developer that has little time and money to hack together your own website (all that time going to work, sleep, and memes). Like any pro, you pick a random and easy-looking framework. Publii is one such tool that looks friendly,&hellip;
@@ -67,8 +67,6 @@
 <p>Unfortunately, no. Publii is a <em>static</em> CMS generator, it makes pure HTML/JS/CSS only. Need a DB? Look at an API. Need to dynamically change and update page content? JQuery. Need a small web shop? Stop being cheap and upgrade to an actual server.</p>
 <p>
 <script>// <![CDATA[
-Unfor<br>// <![CDATA[
-[
 let alertButton = document.querySelector('#alertButton')
     alertButton.onclick = ()=> {
     	alert('Hey there! You can really clean the site up with JavaScript!')
