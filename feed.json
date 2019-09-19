@@ -10,6 +10,20 @@
     },
     "items": [
         {
+            "id": "https://joshuaspann.github.io/publii-test/image-gallery.html",
+            "url": "https://joshuaspann.github.io/publii-test/image-gallery.html",
+            "title": "Image Gallery",
+            "summary": "Roses 2019PianoDid I dream I was this or the other way around?",
+            "content_html": "<div class=\"gallery\"   >\n<figure class=\"gallery__item\"><a href=\"https://joshuaspann.github.io/publii-test/media/posts/3/gallery/drops-4486499_640.jpg\" ><img src=\"https://joshuaspann.github.io/publii-test/media/posts/3/gallery/drops-4486499_640-thumbnail.jpg\" alt=\"\" width=\"640\" height=\"425\"></a>\n<figcaption class=\"gallery-description\">Roses <small>2019</small></figcaption>\n</figure>\n<figure class=\"gallery__item\"><a href=\"https://joshuaspann.github.io/publii-test/media/posts/3/gallery/niederhorn-4425606_640.jpg\" ><img src=\"https://joshuaspann.github.io/publii-test/media/posts/3/gallery/niederhorn-4425606_640-thumbnail.jpg\" alt=\"\" width=\"640\" height=\"395\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://joshuaspann.github.io/publii-test/media/posts/3/gallery/piano-4487573_640.jpg\" ><img src=\"https://joshuaspann.github.io/publii-test/media/posts/3/gallery/piano-4487573_640-thumbnail.jpg\" alt=\"\" width=\"640\" height=\"426\"></a>\n<figcaption class=\"gallery-description\">Piano</figcaption>\n</figure>\n<figure class=\"gallery__item\"><a href=\"https://joshuaspann.github.io/publii-test/media/posts/3/gallery/saxophone-4473023_640.jpg\" ><img src=\"https://joshuaspann.github.io/publii-test/media/posts/3/gallery/saxophone-4473023_640-thumbnail.jpg\" alt=\"\" width=\"427\" height=\"640\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://joshuaspann.github.io/publii-test/media/posts/3/gallery/watercolour-4116932_640.png\" ><img src=\"https://joshuaspann.github.io/publii-test/media/posts/3/gallery/watercolour-4116932_640-thumbnail.png\" alt=\"\" width=\"640\" height=\"448\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://joshuaspann.github.io/publii-test/media/posts/3/gallery/butterfly-142506_640.jpg\" ><img src=\"https://joshuaspann.github.io/publii-test/media/posts/3/gallery/butterfly-142506_640-thumbnail.jpg\" alt=\"\" width=\"640\" height=\"480\"></a>\n<figcaption class=\"gallery-description\">Did I dream I was this or the other way around?</figcaption>\n</figure>\n</div>",
+            "author": {
+                "name": "Joshua Spann"
+            },
+            "tags": [
+            ],
+            "date_published": "2019-09-19T08:47:48-05:00",
+            "date_modified": "2019-09-19T09:04:52-05:00"
+        },
+        {
             "id": "https://joshuaspann.github.io/publii-test/about.html",
             "url": "https://joshuaspann.github.io/publii-test/about.html",
             "title": "About",

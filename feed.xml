@@ -3,12 +3,45 @@
     <title>Publii Test Site</title>
     <link href="https://joshuaspann.github.io/publii-test/feed.xml" rel="self" />
     <link href="https://joshuaspann.github.io/publii-test" />
-    <updated>2019-09-13T16:24:51-05:00</updated>
+    <updated>2019-09-19T09:12:39-05:00</updated>
     <author>
         <name>Joshua Spann</name>
     </author>
     <id>https://joshuaspann.github.io/publii-test</id>
 
+    <entry>
+        <title>Image Gallery</title>
+        <author>
+            <name>Joshua Spann</name>
+        </author>
+        <link href="https://joshuaspann.github.io/publii-test/image-gallery.html"/>
+        <id>https://joshuaspann.github.io/publii-test/image-gallery.html</id>
+
+        <updated>2019-09-19T09:04:52-05:00</updated>
+            <summary>
+                <![CDATA[
+                    Roses 2019PianoDid I dream I was this or the other way around?
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <div class="gallery"   >
+<figure class="gallery__item"><a href="https://joshuaspann.github.io/publii-test/media/posts/3/gallery/drops-4486499_640.jpg" ><img src="https://joshuaspann.github.io/publii-test/media/posts/3/gallery/drops-4486499_640-thumbnail.jpg" alt="" width="640" height="425"></a>
+<figcaption class="gallery-description">Roses <small>2019</small></figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://joshuaspann.github.io/publii-test/media/posts/3/gallery/niederhorn-4425606_640.jpg" ><img src="https://joshuaspann.github.io/publii-test/media/posts/3/gallery/niederhorn-4425606_640-thumbnail.jpg" alt="" width="640" height="395"></a></figure>
+<figure class="gallery__item"><a href="https://joshuaspann.github.io/publii-test/media/posts/3/gallery/piano-4487573_640.jpg" ><img src="https://joshuaspann.github.io/publii-test/media/posts/3/gallery/piano-4487573_640-thumbnail.jpg" alt="" width="640" height="426"></a>
+<figcaption class="gallery-description">Piano</figcaption>
+</figure>
+<figure class="gallery__item"><a href="https://joshuaspann.github.io/publii-test/media/posts/3/gallery/saxophone-4473023_640.jpg" ><img src="https://joshuaspann.github.io/publii-test/media/posts/3/gallery/saxophone-4473023_640-thumbnail.jpg" alt="" width="427" height="640"></a></figure>
+<figure class="gallery__item"><a href="https://joshuaspann.github.io/publii-test/media/posts/3/gallery/watercolour-4116932_640.png" ><img src="https://joshuaspann.github.io/publii-test/media/posts/3/gallery/watercolour-4116932_640-thumbnail.png" alt="" width="640" height="448"></a></figure>
+<figure class="gallery__item"><a href="https://joshuaspann.github.io/publii-test/media/posts/3/gallery/butterfly-142506_640.jpg" ><img src="https://joshuaspann.github.io/publii-test/media/posts/3/gallery/butterfly-142506_640-thumbnail.jpg" alt="" width="640" height="480"></a>
+<figcaption class="gallery-description">Did I dream I was this or the other way around?</figcaption>
+</figure>
+</div>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>About</title>
         <author>
