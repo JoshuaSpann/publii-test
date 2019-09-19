@@ -3,12 +3,132 @@
     <title>Publii Test Site</title>
     <link href="https://joshuaspann.github.io/publii-test/feed.xml" rel="self" />
     <link href="https://joshuaspann.github.io/publii-test" />
-    <updated>2019-09-19T10:07:05-05:00</updated>
+    <updated>2019-09-19T11:43:06-05:00</updated>
     <author>
         <name>Joshua Spann</name>
     </author>
     <id>https://joshuaspann.github.io/publii-test</id>
 
+    <entry>
+        <title>The Ideal Setup for Cheapskates</title>
+        <author>
+            <name>Joshua Spann</name>
+        </author>
+        <link href="https://joshuaspann.github.io/publii-test/the-ideal-setup-for-cheapskates.html"/>
+        <id>https://joshuaspann.github.io/publii-test/the-ideal-setup-for-cheapskates.html</id>
+
+        <updated>2019-09-19T11:41:31-05:00</updated>
+            <summary>
+                <![CDATA[
+                    Okay, that tears it. You're broke and a cheapskate. Too much money spent on memes. You're behind on the rent. You parents live with you, sure, but they don't contribute or add income. You needs the greens, but without the golf. You're life is like&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Okay, that tears it. You're broke and a cheapskate. Too much money spent on memes. You're behind on the rent. You parents live with you, sure, but they don't contribute or add income. You needs the greens, but without the golf. You're life is like Caddyshack.</p>
+<p>Time to get a website out there to show off your art skills in college. Maybe your hacking degree in university. Wait, a bare-minimum DOS server is <em>how many double 0's a month</em>?! A Raspberry Pi 0w is $10USD, why is a hosting plan with no insurance or encryption double the cost for half the resources?! Can you host it yourself? Sure, if you're fine with life being a joke and death the punchline when your internet goes down because "power bills". Nevermind, time to work at the taco ball down the street for 50% under minimum wage.</p>
+<p>You can do that there above, or you could do...</p>
+<h3 id="mcetoc_1dl555u8j0">... this!</h3>
+<p>First off, <a href="https://getpublii.com/download/">download Publii</a>. Yay, more Megs and less storage, another burden to bear. Install it. Next off, don't open it, get a <a href="https://github.com/join">GitHub</a>. Wait, you have one? No wonder you're cheap by circumstance, all that open-source work and no patrons!</p>
+<p>Create a repo <em>with a README</em>, name it "your account name dot github dot io": <code>yourAccount.github.io</code>. Great, now open Publii. Add a new site. Once loaded go to the Server settings main menu option. Do something like this where <em>mii</em> is YOUR username. You'll probably need to get a token, <a href="https://getpublii.com/docs/host-static-website-github-pages.html" target="_blank" rel="noopener noreferrer">Publii has a guide</a> on that!</p>
+<p><img class="post__image" src="https://joshuaspann.github.io/publii-test/media/posts/7/publii-server-settings.png" alt="" width="985" height="934"></p>
+<p>Cool, you actually managed to follow outdated guides and it works. Save it. Now make some pages. Sync your changes. Boom, free website!</p>
+<h3 id="mcetoc_1dl56cevq0">Optional, for the Less-Thrifty Cheapskates</h3>
+<p>Time goes on, you have some cash. Go get a domain name. Run some voodoo on your git repo settings and forward all DNS requests to GitHub's servers using <a href="https://help.github.com/en/articles/setting-up-an-apex-domain">their guide</a>. Then <a href="https://help.github.com/en/articles/adding-or-removing-a-custom-domain-for-your-github-pages-site#adding-or-removing-a-custom-domain">add it to your repo</a>. Yay, the cheapest hosting option available. Yeah, you can do GitLab and other sites, but GitHub just makes you <em>look</em> so professional...</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Hacking You Can Do with Publii</title>
+        <author>
+            <name>Joshua Spann</name>
+        </author>
+        <link href="https://joshuaspann.github.io/publii-test/hacking-you-can-do-with-publii.html"/>
+        <id>https://joshuaspann.github.io/publii-test/hacking-you-can-do-with-publii.html</id>
+
+        <updated>2019-09-19T11:11:41-05:00</updated>
+            <summary>
+                <![CDATA[
+                    Chances are you're a web developer that has little time and money to hack together your own website (all that time going to work, sleep, and memes). Like any pro, you pick a random and easy-looking framework. Publii is one such tool that looks friendly,&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Chances are you're a web developer that has little time and money to hack together your own website (all that time going to work, sleep, and memes). Like any pro, you pick a random and easy-looking framework. Publii is one such tool that looks friendly, too friendly. So friendly that it doesn't do much. So how do you make it do more? Can you?</p>
+<h3 id="mcetoc_1dl52ngs90">JavaScript</h3>
+<p>Luckily, Publii can do JavaScript. Publii has a source-code  <code>HTML </code> button. Go ahead, click it. Looks familiar? Now type in a <code>&lt;script&gt;&lt;/script&gt;</code> tag. You'll see the following below. Get the idea?</p>
+<p><img class="post__image" src="https://joshuaspann.github.io/publii-test/media/posts/6/publii-scripting-tag.png" alt="Publii script tag" width="709" height="84"></p>
+<p>But wait! That's an image! I'm fooling you! Nope, Publii generates HTML so you can safely assume that this inconspicuous <button id="alertButton">button</button> <em>must</em> do <em>something</em>. Go ahead, click it. Seeing is believing.</p>
+<h3 id="mcetoc_1dl53l6d30">CSS</h3>
+<p>Now Publii has very few decent themes on its own <a href="https://marketplace.getpublii.com/" title="Publii Marketplace" target="_blank" rel="nofollow noopener noreferrer">Marketplace</a>. Seriously. Very. Few. With the <em>All</em> option selected, you get a whopping 15 total themes! Only 8 are free. Most of them are no-doubt good enough, but sometimes you need some flair and panache, ya know? Just a simple tweak to make that pic pop! Or to fix a glitch where the theme displays all images at FULL-SIZE, even when they obviously shouldn't.</p>
+<p>Simple! Go to the main menu on the left, to the bottom on <em>Tools</em>, then click on the <em>Custom CSS</em> button. There ya go. Simple as that!<img class="post__image" src="https://joshuaspann.github.io/publii-test/media/posts/6/publii-tools-css.png" alt="" width="1476" height="386"></p>
+<p>Of course you could always do custom CSS by editing a post's HTML, but that's really not something to get into.</p>
+<h3 id="mcetoc_1dl54hm5p0">Dynamic Content</h3>
+<p>Unfortunately, no. Publii is a <em>static</em> CMS generator, it makes pure HTML/JS/CSS only. Need a DB? Look at an API. Need to dynamically change and update page content? JQuery. Need a small web shop? Stop being cheap and upgrade to an actual server.</p>
+<p>
+<script>// <![CDATA[
+Unfor<br>// <![CDATA[
+[
+let alertButton = document.querySelector('#alertButton')
+    alertButton.onclick = ()=> {
+    	alert('Hey there! You can really clean the site up with JavaScript!')
+    }
+// ]]></script>
+</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Topics</title>
+        <author>
+            <name>Joshua Spann</name>
+        </author>
+        <link href="https://joshuaspann.github.io/publii-test/topics.html"/>
+        <id>https://joshuaspann.github.io/publii-test/topics.html</id>
+
+        <updated>2019-09-19T11:42:45-05:00</updated>
+            <summary>
+                <![CDATA[
+                    Here is a list of topics that cover using Publii to setup your own (virtually) free website! 
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Here is a list of topics that cover using Publii to setup your own (virtually) free website!</p>
+<p> </p>
+<ul>
+<li><a href="https://joshuaspann.github.io/publii-test/the-ideal-setup-for-cheapskates.html">The Ideal Setup for Cheapskates</a></li>
+<li><a href="https://joshuaspann.github.io/publii-test/hacking-you-can-do-with-publii.html">Hacking You Can Do with Publii</a></li>
+</ul>
+<p><a href="https://joshuaspann.github.io/publii-test/hacking-you-can-do-with-publii.html"> </a></p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Geek&#x27;s Guide to Publii</title>
+        <author>
+            <name>Joshua Spann</name>
+        </author>
+        <link href="https://joshuaspann.github.io/publii-test/geeks-guide-to-publii.html"/>
+        <id>https://joshuaspann.github.io/publii-test/geeks-guide-to-publii.html</id>
+
+        <updated>2019-09-19T10:27:54-05:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://joshuaspann.github.io/publii-test/media/posts/4/publii-beta.jpg" alt="" />
+                    A geek's quick-guide to using Publii, made using Publii.Publii is a static CMS generator, similar to Wordpress. You install an app on your Windows or OSX device to build the website, then specify where to deploy it to. For the optional cost of only a&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://joshuaspann.github.io/publii-test/media/posts/4/publii-beta.jpg" alt="" />
+                <h3 id="mcetoc_1dl516ffm0">A geek's quick-guide to using Publii, made using Publii.</h3>
+<p>Publii is a static CMS generator, similar to Wordpress. You install an app on your Windows or OSX device to build the website, then specify where to deploy it to. For the optional cost of only a domain name, you can host your own website with no progamming knowledge!</p>
+<p><a href="https://getpublii.com/" target="_blank" rel="noopener noreferrer"><img class="post__image--center" src="https://joshuaspann.github.io/publii-test/media/posts/4/publii-beta.jpg" alt="Publii Blog Image" width="1200" height="800"></a></p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Image Gallery</title>
         <author>
