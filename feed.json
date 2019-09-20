@@ -11,6 +11,20 @@
     },
     "items": [
         {
+            "id": "https://joshuaspann.github.io/publii-test/sign-up-for-our-newsletter.html",
+            "url": "https://joshuaspann.github.io/publii-test/sign-up-for-our-newsletter.html",
+            "title": "Sign Up for Our Newsletter!",
+            "summary": "You can sign up for our newsletter to get the latest and greatest news around! Please fill out and submit the form below to have us add you to the list!Name: Email: Organization: Submit",
+            "content_html": "<p>You can sign up for our newsletter to get the latest and greatest news around!<br>Please fill out and submit the form below to have us add you to the list!</p>\n<form id=\"newsletterForm\"><label>Name:</label><input type=\"text\" placeholder=\"Full Name\"> <label>Email:</label><input type=\"text\" placeholder=\"email@website.com\"> <label>Organization:</label><input type=\"text\" placeholder=\"Your Org Name\"> <button>Submit</button></form>\n<script>// <![CDATA[\nlet newsletterForm = document.querySelector('#newsletterForm')\n  newsletterForm.onsubmit = ()=> {\n  \talert('Thanks!')\n  }\n// ]]></script>",
+            "author": {
+                "name": "Joshua Spann"
+            },
+            "tags": [
+            ],
+            "date_published": "2019-09-20T10:54:08-05:00",
+            "date_modified": "2019-09-20T10:58:18-05:00"
+        },
+        {
             "id": "https://joshuaspann.github.io/publii-test/the-ideal-setup-for-cheapskates.html",
             "url": "https://joshuaspann.github.io/publii-test/the-ideal-setup-for-cheapskates.html",
             "title": "The Ideal Setup for Cheapskates",

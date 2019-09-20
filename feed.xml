@@ -3,12 +3,39 @@
     <title>Publii Test Site</title>
     <link href="https://joshuaspann.github.io/publii-test/feed.xml" rel="self" />
     <link href="https://joshuaspann.github.io/publii-test" />
-    <updated>2019-09-19T16:02:44-05:00</updated>
+    <updated>2019-09-20T13:14:44-05:00</updated>
     <author>
         <name>Joshua Spann</name>
     </author>
     <id>https://joshuaspann.github.io/publii-test</id>
 
+    <entry>
+        <title>Sign Up for Our Newsletter!</title>
+        <author>
+            <name>Joshua Spann</name>
+        </author>
+        <link href="https://joshuaspann.github.io/publii-test/sign-up-for-our-newsletter.html"/>
+        <id>https://joshuaspann.github.io/publii-test/sign-up-for-our-newsletter.html</id>
+
+        <updated>2019-09-20T10:58:18-05:00</updated>
+            <summary>
+                <![CDATA[
+                    You can sign up for our newsletter to get the latest and greatest news around! Please fill out and submit the form below to have us add you to the list!Name: Email: Organization: Submit
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>You can sign up for our newsletter to get the latest and greatest news around!<br>Please fill out and submit the form below to have us add you to the list!</p>
+<form id="newsletterForm"><label>Name:</label><input type="text" placeholder="Full Name"> <label>Email:</label><input type="text" placeholder="email@website.com"> <label>Organization:</label><input type="text" placeholder="Your Org Name"> <button>Submit</button></form>
+<script>// <![CDATA[
+let newsletterForm = document.querySelector('#newsletterForm')
+  newsletterForm.onsubmit = ()=> {
+  	alert('Thanks!')
+  }
+// ]]></script>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>The Ideal Setup for Cheapskates</title>
         <author>
